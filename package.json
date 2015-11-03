@@ -1,0 +1,32 @@
+{
+  "name": "AtHome",
+  "version": "1.0.0",
+  "description": "Home assignment",
+  "main": "index.htm",
+  "scripts": {
+    "test": "console.log('Joe Mbaya');"
+  },
+  "keywords": [
+    "ReactJS",
+    "NodeJS"
+  ],
+  "author": "Joe Mbaya",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.2"
+  }
+  "testling": {
+    "harness": "mocha-tdd",
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "chrome/latest",
+      "firefox/latest"
+    ]
+  },
+  "scripts": {
+    "test": "mocha --ui tdd"
+  }
+}
